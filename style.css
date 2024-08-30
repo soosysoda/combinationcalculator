@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(255, 155, 155);
+}
+.header-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 95, 95);
+    margin-bottom: 200px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.calculate-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.output-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+span{
+    font-size: 30px;
+}
+.calculate-section form input{
+    width: 300px;
+    padding: 10px 5px 10px 15px;
+    background-color: rgb(255, 208, 208);
+    border-radius: 25px;
+    border-width: 0px;
+    color: red;
+}
+.calculate-section form label{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.calculate-section form{
+    gap: 10px;
+}
+::placeholder{
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+}
+.sbmit{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(255, 59, 92);
+    color: white;
+    border-width: 0px;
+    border-radius: 25px;
+}
+.sbmit:hover{
+    background-color: rgb(255, 88, 116);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href= "style.css">
+    </head>
+    <body>
+        <div id="header" class="header-section">
+            <h1>Combination Calculator</h1>
+        </div>
+        <div id="calculator" class="calculate-section">
+            <form>
+                <label for="nvalue">ENTER THE VALUE OF N:</label>
+                <input type="text" class="n-value" placeholder="Enter any positive no.">
+                <label for="rvalue">ENTER THE VALUE OF R:</label>
+                <input type="text" class="r-value" placeholder="Enter any positive no. less than n">
+            </form>
+            <button id = "submitBtn" class="sbmit">Submit</button>
+        </div>
+        <div class="output-section" id="output">
+            <span><sup id="nsup">n</sup> C <sub id = "rsub">r</sub></span>
+            <span id="result"> = __</span>
+        </div>
+    </body>
+    <script src = 'perm.js'></script>
+</html>
